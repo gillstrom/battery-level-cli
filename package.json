@@ -1,0 +1,46 @@
+{
+	"name": "battery-level-cli",
+	"version": "0.0.0",
+	"description": "Get current battery level",
+	"license": "MIT",
+	"repository": "gillstrom/battery-level-cli",
+	"author": {
+		"name": "Andreas Gillström",
+		"email": "andreasgillstrom@gmail.com>",
+		"url": "github.com/gillstrom"
+	},
+	"bin": {
+		"battery-level": "cli.js"
+	},
+	"engines": {
+		"node": ">=4"
+	},
+	"scripts": {
+		"test": "xo && ava"
+	},
+	"files": [
+		"cli.js"
+	],
+	"keywords": [
+		"app",
+		"battery",
+		"cli",
+		"cli-app",
+		"level",
+		"linux",
+		"mac",
+		"os x",
+		"osx",
+		"windows"
+	],
+	"dependencies": {
+		"battery-level": "^3.0.0",
+		"meow": "^3.7.0",
+		"to-percent": "^1.0.2"
+	},
+	"devDependencies": {
+		"ava": "*",
+		"execa": "^0.8.0",
+		"xo": "*"
+	}
+}
